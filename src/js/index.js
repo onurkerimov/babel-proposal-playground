@@ -13,3 +13,6 @@ class MyComponent extends Component {
   @decorator
   render() {}
 }
+
+let instance = new MyComponent()
+console.log(instance)

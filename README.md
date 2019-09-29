@@ -1,6 +1,6 @@
 # babel-proposal-playground
 
-This is a starter project with Babel and Webpack, with experimental Babel plugins enabled: [`@babel/plugin-proposal-decorators` (more info)](https://babeljs.io/docs/en/babel-plugin-proposal-decorators), [`@babel/plugin-proposal-class-properties` (more info)](https://babeljs.io/docs/en/babel-plugin-proposal-class-properties).
+This is a starter project with Babel and Webpack, with experimental Babel plugins enabled: [`@babel/plugin-proposal-decorators`](https://babeljs.io/docs/en/babel-plugin-proposal-decorators) and [`@babel/plugin-proposal-class-properties`](https://babeljs.io/docs/en/babel-plugin-proposal-class-properties).
 
 ## Features
 

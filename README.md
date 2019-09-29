@@ -5,18 +5,18 @@ This is a starter project with Babel and Webpack, with experimental Babel plugin
 ## Features
 
 
-- Suitable for library authoring (by modifying `@my-library` and `my-library` folders under `./src/node_modules`)
+- Suitable for library authoring by modifying `@my-library` and `my-library` folders under `./src/node_modules`
 - Prettier, set to `{ "semi": false, "singleQuote": true}`
     - This configuration removes semicolons and uses single quotes instead of double quotes in strings.
     -  Advised to use with Prettier plugin in VSCode to automatically format on save.
 
-* :white_check_mark: Babel (Core) `v7.4.4`
+* **Babel** `v7.4.4`
     - Experimental decorators support (`@babel/plugin-proposal-decorators`)
     - Experimental class properties support (`@babel/plugin-proposal-class-properties`)
     - ES2015+ syntax support (`@babel/preset-env`)
 
 
-- :white_check_mark: Webpack `v4.31.0`
+- **Webpack** `v4.31.0`
     - Two build settings: `dev` & `prod`
     - Separate config files under `./webpack` folder (Adapted from [this repository](https://github.com/piecioshka/boilerplate-babel-webpack))
     - `webpack-dev-server` is used in `dev` setting
@@ -26,13 +26,13 @@ This is a starter project with Babel and Webpack, with experimental Babel plugin
 
 ## Usage
 
-### development
+### Development
 
 ```bash
 npm run dev
 ```
 
-### production
+### Production
 
 ```bash
 npm run build
